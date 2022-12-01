@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/12/01 20:33:55.031,=F:\CppBuilder\Projects\Unit1.cpp</Transaction>
+    <Transaction>2022/12/01 20:33:56.001,=F:\CppBuilder\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2022/12/01 20:34:17.613,F:\CppBuilder\Projects\Latihan-Membuat-Cpp-Gui-Apps\HelloWorld\HelloWorld.fmx=F:\CppBuilder\Projects\Unit1.fmx</Transaction>
+    <Transaction>2022/12/01 20:34:17.613,F:\CppBuilder\Projects\Latihan-Membuat-Cpp-Gui-Apps\HelloWorld\HelloWorld.h=F:\CppBuilder\Projects\Unit1.h</Transaction>
+    <Transaction>2022/12/01 20:34:17.613,F:\CppBuilder\Projects\Latihan-Membuat-Cpp-Gui-Apps\HelloWorld\HelloWorld.cpp=F:\CppBuilder\Projects\Unit1.cpp</Transaction>
+    <Transaction>2022/12/01 20:34:41.117,F:\CppBuilder\Projects\Latihan-Membuat-Cpp-Gui-Apps\HelloWorld\Project1PCH1.h=F:\CppBuilder\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2022/12/01 20:34:58.337,F:\CppBuilder\Projects\Latihan-Membuat-Cpp-Gui-Apps\HelloWorld\Project1.cbproj=F:\CppBuilder\Projects\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
