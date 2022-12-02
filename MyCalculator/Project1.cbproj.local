@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/02 16:08:30.000.333,=F:\CppBuilder\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2022/12/02 16:08:30.000.234,=F:\CppBuilder\Projects\Unit1.cpp</Transaction>
+    <Transaction>2022/12/02 16:11:30.764,=F:\CppBuilder\Projects\Unit1.cpp</Transaction>
+    <Transaction>2022/12/02 16:11:31.719,=F:\CppBuilder\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2022/12/02 16:12:00.348,F:\CppBuilder\Projects\Latihan-Membuat-Cpp-Gui-Apps\MyCalculator\MyCalculator.cpp=F:\CppBuilder\Projects\Unit1.cpp</Transaction>
+    <Transaction>2022/12/02 16:12:00.348,F:\CppBuilder\Projects\Latihan-Membuat-Cpp-Gui-Apps\MyCalculator\MyCalculator.fmx=F:\CppBuilder\Projects\Unit1.fmx</Transaction>
+    <Transaction>2022/12/02 16:12:00.348,F:\CppBuilder\Projects\Latihan-Membuat-Cpp-Gui-Apps\MyCalculator\MyCalculator.h=F:\CppBuilder\Projects\Unit1.h</Transaction>
+    <Transaction>2022/12/02 16:12:32.006,F:\CppBuilder\Projects\Latihan-Membuat-Cpp-Gui-Apps\MyCalculator\Project1PCH1.h=F:\CppBuilder\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2022/12/02 16:12:36.060,F:\CppBuilder\Projects\Latihan-Membuat-Cpp-Gui-Apps\MyCalculator\Project1.cbproj=F:\CppBuilder\Projects\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

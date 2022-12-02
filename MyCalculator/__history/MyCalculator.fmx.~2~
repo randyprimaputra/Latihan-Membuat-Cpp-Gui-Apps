@@ -2,240 +2,157 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 548
-  ClientWidth = 413
+  ClientHeight = 480
+  ClientWidth = 383
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   DesignerMasterStyle = 0
-  object Edit1: TEdit
+  object EditDisplay: TEdit
     Touch.InteractiveGestures = [LongTap, DoubleTap]
-    TabOrder = 1
-    Text = '0'
-    TextSettings.Font.Family = 'Monotxt'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.HorzAlign = Trailing
-    TextSettings.VertAlign = Trailing
-    Position.Y = -5.000000000000000000
-    Size.Width = 409.000000000000000000
+    TabOrder = 0
+    Size.Width = 377.000000000000000000
     Size.Height = 65.000000000000000000
     Size.PlatformDefault = False
-    StyledSettings = [FontColor]
   end
   object Button1: TButton
-    StyledSettings = [FontColor]
     Position.Y = 72.000000000000000000
-    Size.Width = 97.000000000000000000
-    Size.Height = 90.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 18
-    Text = '/'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
-  end
-  object Button2: TButton
-    StyledSettings = [FontColor]
-    Position.X = 104.000000000000000000
-    Position.Y = 72.000000000000000000
-    Size.Width = 97.000000000000000000
-    Size.Height = 90.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 17
-    Text = '*'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
-  end
-  object Button3: TButton
-    StyledSettings = [FontColor]
-    Position.X = 312.000000000000000000
-    Position.Y = 168.000000000000000000
-    Size.Width = 97.000000000000000000
+    Size.Width = 90.000000000000000000
     Size.Height = 90.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 16
-    Text = '-'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
-  end
-  object Button4: TButton
-    StyledSettings = [FontColor]
-    Position.Y = 168.000000000000000000
-    Size.Width = 97.000000000000000000
-    Size.Height = 90.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 12
     Text = '7'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
   end
-  object Button5: TButton
-    StyledSettings = [FontColor]
-    Position.X = 104.000000000000000000
-    Position.Y = 168.000000000000000000
-    Size.Width = 97.000000000000000000
-    Size.Height = 90.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 11
-    Text = '8'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
-  end
-  object Button6: TButton
-    StyledSettings = [FontColor]
-    Position.X = 208.000000000000000000
-    Position.Y = 168.000000000000000000
-    Size.Width = 97.000000000000000000
-    Size.Height = 90.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 10
-    Text = '9'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
-  end
-  object Button7: TButton
-    StyledSettings = [FontColor]
-    Position.Y = 264.000000000000000000
-    Size.Width = 97.000000000000000000
-    Size.Height = 90.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 9
-    Text = '4'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
-  end
-  object Button8: TButton
-    StyledSettings = [FontColor]
-    Position.X = 104.000000000000000000
-    Position.Y = 264.000000000000000000
-    Size.Width = 97.000000000000000000
-    Size.Height = 90.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 8
-    Text = '5'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
-  end
-  object Button9: TButton
-    StyledSettings = [FontColor]
-    Position.X = 208.000000000000000000
-    Position.Y = 264.000000000000000000
-    Size.Width = 97.000000000000000000
-    Size.Height = 90.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 7
-    Text = '6'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
-  end
-  object Button10: TButton
-    StyledSettings = [FontColor]
-    Position.Y = 456.000000000000000000
-    Size.Width = 201.000000000000000000
-    Size.Height = 90.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 6
-    Text = '0'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
-  end
-  object Button11: TButton
-    StyledSettings = [FontColor]
-    Position.X = 208.000000000000000000
-    Position.Y = 360.000000000000000000
-    Size.Width = 97.000000000000000000
-    Size.Height = 90.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 5
-    Text = '3'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
-  end
-  object Button12: TButton
-    StyledSettings = [FontColor]
-    Position.Y = 360.000000000000000000
-    Size.Width = 97.000000000000000000
-    Size.Height = 90.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 3
-    Text = '1'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
-  end
-  object Button13: TButton
-    StyledSettings = [FontColor]
-    Position.X = 104.000000000000000000
-    Position.Y = 360.000000000000000000
-    Size.Width = 97.000000000000000000
-    Size.Height = 90.000000000000000000
-    Size.PlatformDefault = False
-    TabOrder = 2
-    Text = '2'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
-  end
-  object Button14: TButton
-    StyledSettings = [FontColor]
-    Position.X = 312.000000000000000000
+  object Button2: TButton
+    Position.X = 96.000000000000000000
     Position.Y = 72.000000000000000000
-    Size.Width = 97.000000000000000000
+    Size.Width = 90.000000000000000000
+    Size.Height = 90.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 15
+    Text = '8'
+  end
+  object Button3: TButton
+    Position.X = 192.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 90.000000000000000000
     Size.Height = 90.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 14
-    Text = '+'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = '9'
   end
-  object Button15: TButton
-    StyledSettings = [FontColor]
-    Position.X = 208.000000000000000000
-    Position.Y = 72.000000000000000000
-    Size.Width = 97.000000000000000000
+  object Button4: TButton
+    Position.Y = 168.000000000000000000
+    Size.Width = 90.000000000000000000
     Size.Height = 90.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 13
-    Text = '%'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = '4'
   end
-  object Button16: TButton
-    StyledSettings = [FontColor]
-    Position.X = 312.000000000000000000
-    Position.Y = 264.000000000000000000
-    Size.Width = 97.000000000000000000
-    Size.Height = 281.000000000000000000
+  object Button5: TButton
+    Position.X = 96.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 90.000000000000000000
+    Size.Height = 90.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 15
-    Text = '='
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TabOrder = 12
+    Text = '5'
   end
-  object Button17: TButton
-    StyledSettings = [FontColor]
-    Position.X = 208.000000000000000000
-    Position.Y = 456.000000000000000000
-    Size.Width = 97.000000000000000000
+  object Button6: TButton
+    Position.X = 192.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 90.000000000000000000
+    Size.Height = 90.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    Text = '6'
+  end
+  object Button7: TButton
+    Position.Y = 264.000000000000000000
+    Size.Width = 90.000000000000000000
+    Size.Height = 90.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    Text = '1'
+  end
+  object Button8: TButton
+    Position.X = 96.000000000000000000
+    Position.Y = 264.000000000000000000
+    Size.Width = 90.000000000000000000
+    Size.Height = 90.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    Text = '2'
+  end
+  object Button9: TButton
+    Position.X = 192.000000000000000000
+    Position.Y = 264.000000000000000000
+    Size.Width = 90.000000000000000000
+    Size.Height = 90.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = '3'
+  end
+  object Button10: TButton
+    Position.Y = 360.000000000000000000
+    Size.Width = 90.000000000000000000
+    Size.Height = 90.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = '0'
+  end
+  object Button11: TButton
+    Position.X = 96.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 90.000000000000000000
+    Size.Height = 90.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = '.'
+  end
+  object Button12: TButton
+    Position.X = 192.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 90.000000000000000000
+    Size.Height = 90.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = '='
+  end
+  object Button13: TButton
+    Position.X = 288.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 90.000000000000000000
     Size.Height = 90.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 4
-    Text = '.'
-    TextSettings.Font.Family = 'Sitka Banner'
-    TextSettings.Font.Size = 36.000000000000000000
-    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = '+'
+  end
+  object Button14: TButton
+    Position.X = 288.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 90.000000000000000000
+    Size.Height = 90.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = '-'
+  end
+  object Button15: TButton
+    Position.X = 288.000000000000000000
+    Position.Y = 264.000000000000000000
+    Size.Width = 90.000000000000000000
+    Size.Height = 90.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = '*'
+  end
+  object Button16: TButton
+    Position.X = 288.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 90.000000000000000000
+    Size.Height = 90.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = '/'
   end
 end
